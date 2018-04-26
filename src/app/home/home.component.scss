@@ -1,0 +1,13 @@
+@import "sx-style";
+
+#wrapper {
+  @include size100v;
+  @include absolute-start;
+  color: black;
+  font-size: 30px;
+}
+
+iframe {
+  @include size100p;
+  @include absolute-center;
+}
